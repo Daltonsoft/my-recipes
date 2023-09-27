@@ -10,13 +10,13 @@ export const Auth0ProviderWithNavigate = ({
   children,
 }: PropsWithChildren<Auth0ProviderWithNavigateProps>): JSX.Element | null => {
   const navigate = useNavigate();
+  const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+  const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+  const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL;
 
-  const domain = "https://dev-kgkcyjqwl10cp2ad.uk.auth0.com"
-  const clientId = "PgDQkI5dg2Qgwy1ECtovPWlfzW0g1st2"
-  const redirectUri = "http://localhost:3000/callback"
+  console.log(domain, clientId, redirectUri, process.env.NODE_ENV, process.env.REACT_APP_TEST, process.env.APP_TEST2);
 
   const onRedirectCallback = (appState?: AppState) => {
-    console.log(appState);
     navigate(appState?.returnTo || window.location.pathname);
   };
 
