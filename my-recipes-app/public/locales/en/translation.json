@@ -1,0 +1,20 @@
+{
+  "navigation": {
+    "routes": {
+      "profile": "^My Account",
+      "home": "^Home"
+    },
+    "buttons": {
+      "login": "^Login",
+      "logout": "^Logout",
+      "signUp": "^Sign Up"
+    }
+  },
+  "pages": {
+    "notFound": {
+      "notFoundCode": "^404 Not Found",
+      "message": "^Oops! The page you are looking for could not be found.",
+      "homeButton": "^Go Home"
+    }
+  }
+}
