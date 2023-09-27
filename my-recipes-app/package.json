@@ -17,6 +17,7 @@
     "scripts": {
         "start": "webpack serve --port 3000",
         "build": "NODE_ENV=production webpack",
+        "build2": "SET NODE_ENV=production && webpack",
         "lint": "eslint . --ext .ts,.tsx --fix"
     },
     "eslintConfig": {
@@ -52,6 +53,7 @@
         "babel-loader": "^9.1.3",
         "cross-env": "^7.0.3",
         "css-loader": "^6.8.1",
+        "dotenv-webpack": "^8.0.1",
         "eslint": "^8.50.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-prettier": "^9.0.0",
