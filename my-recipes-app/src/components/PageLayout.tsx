@@ -18,7 +18,6 @@ export const PageLayout: React.FC<Props> = ({ children }) => {
         <MobileNavBar />
       </nav>
       <div className='flex w-full h-full items-center justify-between flex-grow'>{children}</div>
-      <footer className='flex-none'>FOOTER is here</footer>
     </main>
   );
 };
