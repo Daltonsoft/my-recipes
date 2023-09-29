@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { RecipeTileModel } from "src/models/RecipeTileModel";
 
-interface Props {
+export interface Props {
   recipe: RecipeTileModel;
 }
 

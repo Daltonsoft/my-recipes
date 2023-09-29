@@ -1,6 +1,7 @@
 import React from "react";
 import { NavBar } from "./navigation/desktop/NavBar";
 import { MobileNavBar } from "./navigation/mobile/MobileNavBar";
+import { SocialMediaFooterBar } from "./social-media/SocialMediaFooterBar";
 
 interface Props {
   children: JSX.Element;
@@ -18,6 +19,9 @@ export const PageLayout: React.FC<Props> = ({ children }) => {
         <MobileNavBar />
       </nav>
       <div className='flex w-full h-full items-center justify-between flex-grow'>{children}</div>
+      <footer>
+        <SocialMediaFooterBar />
+      </footer>
     </main>
   );
 };
