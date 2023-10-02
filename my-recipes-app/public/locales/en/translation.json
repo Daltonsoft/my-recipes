@@ -16,5 +16,19 @@
       "message": "^Oops! The page you are looking for could not be found.",
       "homeButton": "^Go Home"
     }
+  },
+  "socialMedia": {
+    "discord": {
+      "text": "^Follow Us On Discord"
+    },
+    "instagram": {
+      "text": "^Follow Us On Instagram"
+    },
+    "youtube": {
+      "text": "^Follow Us On YouTube"
+    },
+    "twitter": {
+      "text": "^Follow Us On Twitter"
+    }
   }
 }
