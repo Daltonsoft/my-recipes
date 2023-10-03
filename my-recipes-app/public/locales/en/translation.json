@@ -15,6 +15,9 @@
       "notFoundCode": "^404 Not Found",
       "message": "^Oops! The page you are looking for could not be found.",
       "homeButton": "^Go Home"
+    },
+    "home": {
+      "text": "^Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed iaculis molestie magna vitae dictum. Fusce luctus, tellus a iaculis mollis, mi diam sodales metus, sollicitudin tempor nisl odio et odio. Nulla sapien purus, scelerisque id felis quis, convallis iaculis ante. Curabitur felis augue, vestibulum sed maximus porta, dignissim et metus. Integer elementum quis enim sit amet eleifend. Maecenas felis lacus, accumsan iaculis ex sed, sollicitudin viverra lacus. Donec auctor luctus elit ac luctus. Nullam eget nibh eu ipsum aliquam rutrum. Cras et arcu fringilla, tincidunt nisi eu, auctor mauris. Sed id felis lacinia eros placerat auctor. Mauris bibendum nisi magna, eget faucibus lectus convallis iaculis. Donec vitae finibus urna."
     }
   },
   "socialMedia": {
@@ -29,6 +32,18 @@
     },
     "twitter": {
       "text": "^Follow Us On Twitter"
+    }
+  },
+  "components": {
+    "topRecipes": {
+      "title": "^Top Recipes",
+      "topOptions": {
+        "day": "^Day",
+        "month": "^Month",
+        "year": "^Year",
+        "week": "^Week",
+        "all": "^All Time"
+      }
     }
   }
 }
